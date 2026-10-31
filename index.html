@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Practice To-Do List</h1>
+
+      <div class="add-row">
+        <input
+          id="taskInput"
+          type="text"
+          placeholder="What do you need to do?"
+          autocomplete="off"
+        />
+        <button id="addBtn">Add task</button>
+      </div>
+
+      <!-- Error message appears here when the input is empty -->
+      <p id="error" class="error" role="alert"></p>
+
+      <!-- Task counter -->
+      <p id="counter" class="counter"></p>
+
+      <!-- Tasks are created by JavaScript and added here -->
+      <ul id="taskList"></ul>
+    </main>
+    <footer class="footer">
+      <p >
+        practice todo app by
+        <a  href="https://github.com/abuhurairakhan-dev" target="_blank"
+          >Abu Huraira Khan</a
+        >
+      </p>
+      <p>Special Thanks to sir @Abdul Musavir for his guidance.</p>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
